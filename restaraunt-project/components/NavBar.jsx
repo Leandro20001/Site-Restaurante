@@ -3,13 +3,12 @@
 function NavBar(){
     return(
     <>
+     <logo>L</logo>
      <nav>
-      <a href="">Home</a>
-      <a href="">Cardapio</a>
+      <a href="/">Home</a>
+      <a href="/Cardapio">Cardapio</a>
       <a href="">Pedidos</a>
-      <a href="">Favoritos</a>
-      <a href="">Example</a>
-      <a href="">Example</a>
+      <a href="">Contato</a>
      </nav>
         
     </>

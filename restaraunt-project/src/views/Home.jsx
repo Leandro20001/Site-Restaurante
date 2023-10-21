@@ -1,4 +1,5 @@
 import NavBar from "../../components/navBar"
+import Footer from "../../components/Footer"
 
 
 
@@ -11,17 +12,40 @@ function Home(){
             <span id="menuSpan">Avaliações De Especialistas</span>
             </div>
 
-            <div className="menuImg">
-                    <img src="background 2.\src\views\imgs\jpg"alt=""/>
-            </div>
-            
-            <div className="menuImg">
-                <img src="\src\views\imgs\salad.jpg" alt="" />
-            </div>
 
-            <div className="menuImg">
-                <img src="\src\views\imgs\salad.jpg" alt="" />
-            </div>
+                <section className="reviewSection">
+                    <div className="menuImg">
+                            <img src="\src\views\imgs\background 2.jpg"alt=""/>
+                    </div>
+                    <span className="review">
+                        "A Melhor Pizza Do Brasil"
+                        ⭐5,0
+                        </span>
+                </section>
+                
+                <section className="reviewSection">
+                    <div className="menuImg">
+                        <img src="\src\views\imgs\lasanha.jpg" alt="" />
+                    </div>
+                    
+                    <span className="review">
+                        "Uma Maravilha!."
+                        ⭐4,5
+                        </span>
+                </section>
+
+                <section className="reviewSection">
+                    <div className="menuImg">
+                        <img src="\src\views\imgs\salad.jpg" alt="" />
+                    </div>
+
+                    <span className="review">
+                        ""Prato Leve E Saboroso.""
+                        ⭐4,5
+                    </span>
+                </section>
+                <Footer/>
+                
         
 
         </>

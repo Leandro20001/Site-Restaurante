@@ -1,4 +1,4 @@
-function FoodCard({prato,price}){
+function FoodCard({prato,price,children}){
     return(
         <>
         <div className="foodCardContainer">
@@ -7,6 +7,7 @@ function FoodCard({prato,price}){
             </div>
             <span className="prato">{prato}</span>
             <span className="price">{price}</span>
+            {children}
         </div>
 
         </>

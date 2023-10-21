@@ -1,4 +1,5 @@
 import NavBar from "../../components/navBar"
+import Footer from "../../components/Footer"
 import FoodsContainer from "../../components/FoodsContainer"
 
 

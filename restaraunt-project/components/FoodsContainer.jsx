@@ -1,4 +1,6 @@
 import FoodCard from "./FoodCard"
+import Footer from "./Footer"
+import PurchaseButton from "./PurchaseButton"
 
 
 function FoodsContainer(){
@@ -8,26 +10,41 @@ function FoodsContainer(){
         <div id="container">
             <FoodCard
             prato={'Salada'} 
-            price={'R$14,90'}></FoodCard>
+            price={'R$14,90'}>
+            <PurchaseButton/>
+            </FoodCard>
 
-            <FoodCard 
-            price={'R$14,90'}></FoodCard>
+            <FoodCard
+            prato={'Salada'}
+            price={'R$14,90'}>
+            <PurchaseButton/>
+            </FoodCard>
 
-            <FoodCard 
-            price={'R$14,90'}></FoodCard>
+             <FoodCard
+            prato={'Salada'} 
+            price={'R$14,90'}>
+            <PurchaseButton/>
+            </FoodCard>
 
-            <FoodCard 
-            price={'R$14,90'}></FoodCard>
+            <FoodCard
+            prato={'Salada'}
+            price={'R$14,90'}>
+            <PurchaseButton/>
+            </FoodCard>
 
-            <FoodCard 
-            price={'R$14,90'}></FoodCard>
+             <FoodCard
+            prato={'Salada'} 
+            price={'R$14,90'}>
+            <PurchaseButton/>
+            </FoodCard>
 
-            <FoodCard 
-            price={'R$14,90'}></FoodCard>
-            
-            <FoodCard 
-            price={'R$14,90'}></FoodCard>
-           
+            <FoodCard
+            prato={'Salada'}
+            price={'R$14,90'}>
+            <PurchaseButton/>
+            </FoodCard>
+
+            <Footer></Footer>
         </div>
       </>
     )
